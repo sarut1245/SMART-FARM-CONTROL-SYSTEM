@@ -1,0 +1,14 @@
+*{ transition: none!important; -webkit-print-color-adjust:exact;}
+a[href]:after { content: none !important; }
+.hidden-print { display: none; }
+body { background: #fff; }
+header { display: none; }
+nav { display: none; }
+.sidebar { display: none; }
+button { display: none; }
+footer { display: none; }
+
+form.form-horizontal { display: none; }
+
+a.btn { display: none; }
+
